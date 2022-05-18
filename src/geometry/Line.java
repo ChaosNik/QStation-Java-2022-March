@@ -13,6 +13,10 @@ public class Line
 		this.n = n;
 	}
 	
+	public Line()
+	{
+		this(0, 1);
+	}
 	
 	Line(Point A, Point B) throws LineException
 	{
