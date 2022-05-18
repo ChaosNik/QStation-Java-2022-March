@@ -13,11 +13,6 @@ public class Line
 		this.n = n;
 	}
 	
-	Line()
-	{
-		this(1, 0);
-	}
-	
 	Line(Point A, Point B) throws LineException
 	{
 		if(A.equals(B))

@@ -5,7 +5,7 @@ public class TriangleException extends GeometricException
 	private static final long serialVersionUID = 1L;
 	public TriangleException()
 	{
-		super("Triangle exception!");
+		super("");
 	}
 	public TriangleException(String message)
 	{

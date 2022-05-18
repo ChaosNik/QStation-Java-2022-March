@@ -9,17 +9,6 @@ public class Point
 		this.y = y;
 	}
 	
-	public Point()
-	{
-		this(0, 0);
-	}
-	
-	public Point(Point other)
-	{
-		x = other.x;
-		y = other.y;
-	}
-	
 	public static double distance(Point A, Point B)
 	{
 		double x = A.x - B.x;
@@ -29,7 +18,7 @@ public class Point
 	
 	public double distanceTo(Point other)
 	{
-		return distance(this, other);
+		return 0;
 	}
 	
 	public static boolean colinear(Point A, Point B, Point C)
