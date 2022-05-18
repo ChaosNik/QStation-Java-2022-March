@@ -55,6 +55,3 @@ public class Line
 	    return true;
 	}
 }
-//nesto
-//Nesto drugo
-//nesto trece by milica
