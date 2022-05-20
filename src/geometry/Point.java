@@ -23,7 +23,7 @@ public class Point
 	
 	public double distanceTo(Point other)
 	{
-		return 0;
+		return distance(this, other);
 	}
 	
 	public static boolean colinear(Point A, Point B, Point C)
