@@ -7,7 +7,7 @@ public class Line
 	double m; // slope
 	double n; // y-intercept
 	
-	Line(double m, double n)
+	public Line(double m, double n)
 	{
 		this.m = m;
 		this.n = n;
@@ -18,7 +18,7 @@ public class Line
 		this(0, 1);
 	}
 	
-	Line(Point A, Point B) throws LineException
+	public Line(Point A, Point B) throws LineException
 	{
 		if(A.equals(B))
 			throw new LineException("Same points!");
@@ -58,5 +58,11 @@ public class Line
 	    if(n != other.n)
 	    	return false;
 	    return true;
+	}
+	
+	@Override
+	public String toString()
+	{
+		return "L(" + m + "x + " + n + ")";
 	}
 }

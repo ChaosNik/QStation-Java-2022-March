@@ -44,4 +44,9 @@ public class Triangle implements Polygon
 	    return true;
 	}
 	
+	@Override
+	public String toString()
+	{
+		return "T(" + A + ", " + B + ", " + C + ")";
+	}
 }
