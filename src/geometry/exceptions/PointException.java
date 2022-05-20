@@ -5,7 +5,7 @@ public class PointException extends GeometricException
 	private static final long serialVersionUID = 1L;
 	public PointException()
 	{
-		super("");
+		super("Point exception!");
 	}
 	public PointException(String message)
 	{
