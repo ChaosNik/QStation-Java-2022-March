@@ -13,7 +13,7 @@ public class Point
 	{
 		this(0,0);
 	}
-
+  
 	public static double distance(Point A, Point B)
 	{
 		double x = A.x - B.x;
@@ -28,7 +28,7 @@ public class Point
 	
 	public static boolean colinear(Point A, Point B, Point C)
 	{
-		return (A.x  * (B.y - C.y) + B.x * (A.y - C.y) + C.x * (A.y - B.y)) / 2 != 0;
+		return (A.x  * (B.y - C.y) + B.x * (A.y - C.y) + C.x * (A.y - B.y)) / 2 == 0;
 	}
 	
 	public boolean equals(Object o)
@@ -43,5 +43,11 @@ public class Point
 	    if(y != other.y)
 	    	return false;
 	    return true;
+	}
+	
+	@Override
+	public String toString()
+	{
+		return "P(" + x + ", " + y + ")";
 	}
 }
