@@ -13,7 +13,6 @@ public class Point
 	{
 		this(0,0);
 	}
-  
 	public static double distance(Point A, Point B)
 	{
 		double x = A.x - B.x;
