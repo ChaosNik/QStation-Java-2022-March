@@ -11,6 +11,4 @@ public class PointException extends GeometricException
 	{
 		super(message);
 	}
-
-
 }
